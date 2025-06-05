@@ -107,9 +107,9 @@ pac solution init --publisher-name djoshi --publisher-prefix djoshi
 pac solution add-reference --path "C:/yourpath/Desktop/pcfaggrid/"
 ```
 Finally, build the Solution by
-```console
-dotnet build
+```bash
+dotnet build -c Release
 ```
-#### Once the Solution is built you can see a Solutions.zip inside the Solutions/bin/debug directory.  
+#### Once the Solution is built you can see a `Solutions.zip` inside the `Solutions/bin/Release` directory. Building in `Release` mode minimizes `bundle.js` so the solution imports successfully.
 ![image](https://github.com/DixitJoshi12/Ag-Grid-In-PCF/assets/44132789/8aab482c-97a4-45ac-8cc0-b9b73778869a)
 
