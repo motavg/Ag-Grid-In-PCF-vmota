@@ -34,19 +34,19 @@
   }
    /* pivot header styling end */
 
- .ag-theme-quartz-dark button
+.ag-theme-quartz-dark button
   {
-    background-color: '#4CAF50';
-    border: 'none';
-    color: 'white';
-    padding: '15px 32px';
-    text-align: 'left' !important;
-    text-decoration: 'none';
-    display: 'inline-block';
-    font-size: '14px';
-    margin: '4px 2px';
-    cursor: 'pointer';
-    border-radius: '20px';
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
 }
 .ag-tabs.ag-menu.ag-focus-managed.ag-ltr.ag-popup-child.ag-popup-positioned-under {
  
